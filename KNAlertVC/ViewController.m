@@ -19,6 +19,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     KNAlertVC * a = [[KNAlertVC alloc] initWithTitle:@"警告" WithMessage:@"你有条警告"];
     
+    
+    
     [a addButton:ALERT_BUTTON_OK WithTitle:@"好的" WithAction:^(void *action) {
         NSLog(@"你点击了 index 为 0 的  好的");
     }];
